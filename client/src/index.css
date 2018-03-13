@@ -34,11 +34,22 @@ li {
   min-width: 15rem;
 }
 
+.friend:hover {
+  background: turquoise;
+  color: #fff;
+}
+
 .friend-title {
+  text-align: center;
   color: rgba(0,0,0,0.7);
   padding: 1rem;
   font-weight: 300;
   font-size: 2rem;
+  font-weight: bold;
+}
+
+.friend-title:hover {
+  color: turquoise;
 }
 
 .friend-name {

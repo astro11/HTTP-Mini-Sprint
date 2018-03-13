@@ -41,6 +41,24 @@ let friends = [
 		age: 47,
 		email: 'luis@lambdaschool.com',
 	},
+	{
+		id: 7,
+		name: 'Astro',
+		age: '00',
+		email: 'astro@lambdaschool.com',
+	},
+	{
+		id: 8,
+		name: 'Agent 47',
+		age: 47,
+		email: '47@lambdaschool.com',
+	},
+	{
+		id: 9,
+		name: 'Mario',
+		age: 100,
+		email: 'mario@lambdaschool.com',
+	},
 ];
 
 app.use(bodyParser.json());
